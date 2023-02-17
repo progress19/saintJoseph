@@ -3396,11 +3396,11 @@ mark {
  margin-right:0.375em;
  margin-right:var(--space-xxs);
  font-size: 13px;
- padding-top: 9px;
+ padding-top: 2px;
 }
 .cd-cart__select {
     position:relative;
-    margin-top: 4px !important;
+    margin-top: 0 !important;
 }
 .cd-cart__select select {
  position:relative;
@@ -3857,8 +3857,9 @@ body {
 .linea-div-cart {
   width: 100%;
   background-color: #eee;
-  height: 1px;
-  margin-top: 0;
+  height: 2px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .panel-checkout li {
@@ -4204,7 +4205,7 @@ opacity: 5;
     height: 75px;
     /*background: hsl(92.3, 100%, 23.3%);*/
     transition: all .2s 0s background-color: #377700;
-    box-shadow: 0 -2px 20px rgba(0,0,0,0.15);
+    box-shadow : 0 -2px 20px rgba(0,0,0,0.15);
 }
 
 .conteLoadingCart .cssload-loading {
