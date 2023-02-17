@@ -1,0 +1,16 @@
+
+estados que devuelve el sistema
+
+WAITING
+
+CREATED
+
+PENDING  
+	- quitar CANCELAR 
+	- quitar col-6 form 
+
+CONFIRMED
+	- ocultar Procesando
+	- GRACIAS!!! recibimos el pago correctamente.
+			Nª y link de coinbase
+	
