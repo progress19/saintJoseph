@@ -17,7 +17,7 @@
                   
                     <div class="col-md-6 col-sm-12">
 
-                        <div class="box-actividad">
+                        <div class="box-actividad" data-aos="flip-up" >
 
                             <div class="row g-0">
                                 <div class="col">

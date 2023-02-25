@@ -1,13 +1,13 @@
 @extends('layouts.frontLayout.front')
 @section('title', 'Saint Joseph Turismo Aventura - Home')    
-@include('_nav') 
 
 @section('content')
+@include('_nav') 
 
 <div id="home">
   <div class="vimeo-wrapper">
-    {{--<iframe src="https://player.vimeo.com/video/796327738?background=0&autoplay=1&loop=1&byline=0&title=0&muted=1" muted="muted" allow="autoplay; fullscreen" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-      </iframe> --}}
+    <iframe src="https://player.vimeo.com/video/796327738?background=0&autoplay=1&loop=1&byline=0&title=0&muted=1" muted="muted" allow="autoplay; fullscreen" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+      </iframe>
 
 </div>
   <div class="conte-mute d-none ">
@@ -34,7 +34,8 @@
     AOS.init({
       easing: 'ease-in-cubic',
       once: true,
-      delay: 2600,
+      delay: 250,
+      offset:280
     });
   
     jQuery(document).ready(function($) {

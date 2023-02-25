@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="csrf_token" content="{{ csrf_token() }}" />
 
-    <title>Saint Joseph | Turismo Aventura</title>
+    <title>Saint Joseph | Turismo Aventura | San Rafael Mendoza</title>
+
+    <meta name="description" content="Descubre la emoción del turismo aventura en San Rafael Mendoza">
+    <meta name="keywords" content="rafting, cool river, canopy, tirolesa, catamaran, valle grande, san rafael, mendoza, rafting nocturno ">
+    <meta name="author" content="Mauricio Lavilla">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <link rel="stylesheet" href="{{ asset('css/front_css/galeria.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/front_css/aos.css') }}" />
+    {{--<link rel="stylesheet" href="{{ asset('css/front_css/aos.css') }}" />--}}
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/front_css/lightcase.css') }}"> 
     <link rel="stylesheet" href="{{ asset('css/front_css/styles.css') }}"> 
 
@@ -53,7 +58,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src=" {{ asset('js/front_js/aos.js') }}"></script>
+    {{--<script type="text/javascript" src=" {{ asset('js/front_js/aos.js') }}"></script>--}}
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <script type="text/javascript" src=" {{ asset('js/front_js/lightcase.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-touch-events/1.0.5/jquery.mobile-events.js"></script>
     <script src="{{ asset('js/front_js/jquery.validate.min.js') }}"></script>

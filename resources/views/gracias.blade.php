@@ -1,8 +1,8 @@
 @extends('layouts.frontLayout.front')
 @section('title', 'Reserva')    
-@include('_nav-int')
 
 @section('content')
+@include('_nav-int')
 
 <!-- CONTENT -->
 <div class="conte-int" >
